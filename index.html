@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIMS Voice Project – Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.jpeg" type="image/jpeg" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .nav-link:hover {
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-yellow-50 text-gray-800 font-sans">
+
+  <!-- HEADER -->
+  <header class="flex justify-between items-center p-4 bg-white shadow-md">
+    <div class="flex items-center space-x-4">
+      <img src="logo.jpeg" alt="Web Nexus Logo" class="w-16 h-16 rounded shadow" style="filter: hue-rotate(-20deg) brightness(1.1);" />
+      <div>
+        <h1 class="text-xl md:text-2xl font-bold text-yellow-700">Student Information Management System</h1>
+        <p class="text-sm text-gray-600">Srinivasa Polytechnic College, Pusapatirega</p>
+        <p class="text-xs text-gray-500">Regd. by AICTE and Affiliated to SBTET AP</p>
+      </div>
+    </div>
+    <nav class="space-x-4 text-sm md:text-base">
+      <a href="#home" class="text-yellow-800 font-medium nav-link px-4 py-2 rounded-full bg-yellow-100 hover:bg-yellow-300 shadow transition-all duration-300">Home</a>
+      <a href="login.html" class="text-yellow-800 font-medium nav-link px-4 py-2 rounded-full bg-yellow-100 hover:bg-yellow-300 shadow transition-all duration-300">Login</a>
+      <a href="#about" class="text-yellow-800 font-medium nav-link px-4 py-2 rounded-full bg-yellow-100 hover:bg-yellow-300 shadow transition-all duration-300">About</a>
+      <a href="#contact" class="text-yellow-800 font-medium nav-link px-4 py-2 rounded-full bg-yellow-100 hover:bg-yellow-300 shadow transition-all duration-300">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="relative w-full h-[350px] md:h-[500px] bg-gradient-to-br from-yellow-200 via-yellow-50 to-white flex items-center justify-center overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1200&q=80" alt="Students" class="absolute left-0 top-0 w-1/3 h-full object-cover opacity-60 animate-fadeInLeft" style="z-index:1;" />
+    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1200&q=80" alt="Campus" class="absolute right-0 bottom-0 w-1/3 h-full object-cover opacity-60 animate-fadeInRight" style="z-index:1;" />
+    <div class="relative z-10 text-center text-yellow-900 px-4 animate-fadeInUp">
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Voice-Enabled SIMS Portal</h2>
+      <p class="text-lg md:text-2xl mb-6 font-medium">Student, HOD, Principal & Admin access — all with your voice</p>
+      <a href="login.html" class="inline-block px-8 py-3 rounded-full bg-yellow-500 text-white font-bold text-lg shadow-lg hover:bg-yellow-600 hover:scale-105 active:scale-95 transition-all duration-300 animate-bounce">Get Started</a>
+    </div>
+  </section>
+
+  <!-- IMAGE SLIDER -->
+  <section class="py-12 px-4 bg-white">
+    <h2 class="text-center text-3xl font-extrabold text-yellow-800 mb-8 tracking-wide animate-fadeInUp">Campus Highlights</h2>
+    <div class="overflow-hidden relative max-w-5xl mx-auto rounded-2xl shadow-2xl border-4 border-yellow-100">
+      <div class="whitespace-nowrap animate-slide-slow inline-flex">
+        <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=886&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-96 h-64 object-cover rounded-xl mx-2 shadow-lg hover:scale-105 transition-transform duration-300" />
+        <img src="https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcHV0ZXIlMjBlbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D" class="w-96 h-64 object-cover rounded-xl mx-2 shadow-lg hover:scale-105 transition-transform duration-300" />
+        <img src="https://images.unsplash.com/photo-1581093803931-46e730e7622e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVjaGFuaWNhbCUyMGVuZ2luZWVyaW5nfGVufDB8fDB8fHww" class="w-96 h-64 object-cover rounded-xl mx-2 shadow-lg hover:scale-105 transition-transform duration-300" />
+        <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80" class="w-96 h-64 object-cover rounded-xl mx-2 shadow-lg hover:scale-105 transition-transform duration-300" />
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" class="w-96 h-64 object-cover rounded-xl mx-2 shadow-lg hover:scale-105 transition-transform duration-300" />
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80" class="w-96 h-64 object-cover rounded-xl mx-2 shadow-lg hover:scale-105 transition-transform duration-300" />
+      </div>
+    </div>
+  </section>
+  <style>
+    @keyframes slide-slow {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-slide-slow {
+      animation: slide-slow 40s linear infinite;
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadeInUp {
+      animation: fadeInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1) both;
+    }
+    @keyframes fadeInLeft {
+      0% { opacity: 0; transform: translateX(-60px); }
+      100% { opacity: 0.6; transform: translateX(0); }
+    }
+    .animate-fadeInLeft {
+      animation: fadeInLeft 1.5s 0.2s both;
+    }
+    @keyframes fadeInRight {
+      0% { opacity: 0; transform: translateX(60px); }
+      100% { opacity: 0.6; transform: translateX(0); }
+    }
+    .animate-fadeInRight {
+      animation: fadeInRight 1.5s 0.2s both;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .animate-bounce {
+      animation: bounce 1.5s infinite;
+    }
+  </style>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-10 px-6 md:px-20 bg-yellow-100 text-center">
+    <h2 class="text-2xl font-bold mb-4 text-yellow-900">About This Project</h2>
+    <p class="max-w-3xl mx-auto text-gray-700 leading-relaxed">
+      SIMS Voice is a role-based, voice-integrated system where students, HODs, principals, and admins interact with college data like attendance, fees, and leave requests. Designed with Tailwind CSS, PHP, and MySQL, it’s fast, secure, and responsive.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-white py-10 px-6 text-center">
+    <h2 class="text-xl font-semibold text-yellow-800 mb-2">Contact Us</h2>
+    <p class="text-gray-700">Have questions? Contact Web Nexus – A Developer Team at support@webnexus.dev</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gradient-to-r from-yellow-700 via-yellow-800 to-yellow-900 text-white py-8 mt-8 shadow-inner">
+    <div class="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto px-4 gap-4">
+      <div class="flex items-center gap-3 mb-2 md:mb-0">
+        <a href="index.html" class="footer-btn" title="Home">
+          <svg class="w-6 h-6 inline-block mr-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7m-9 2v6m0 0h4m-4 0a2 2 0 01-2-2v-4a2 2 0 012-2h4a2 2 0 012 2v4a2 2 0 01-2 2z"/></svg>Home</a>
+        <a href="login.html" class="footer-btn" title="Login">
+          <svg class="w-6 h-6 inline-block mr-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 15c2.485 0 4.847.635 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>Login</a>
+        <a href="#about" class="footer-btn" title="About">
+          <svg class="w-6 h-6 inline-block mr-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 20a8 8 0 100-16 8 8 0 000 16z"/></svg>About</a>
+        <a href="#contact" class="footer-btn" title="Contact">
+          <svg class="w-6 h-6 inline-block mr-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 10.34V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2v-4.34M17 8l-5 4-5-4"/></svg>Contact</a>
+      </div>
+      <div class="text-center md:text-right">
+        <p class="text-sm font-semibold tracking-wide">© 2025 Srinivasa Polytechnic College :: SIMS</p>
+        <p class="text-xs text-yellow-200">Design, Developed & Maintained By <span class="font-bold text-yellow-300">Top Lead (Web Nexus)</span></p>
+      </div>
+    </div>
+    <style>
+      .footer-btn {
+        @apply px-4 py-2 rounded-full bg-yellow-600 hover:bg-yellow-400 hover:text-yellow-900 transition-all duration-300 shadow flex items-center font-medium text-white text-sm;
+        text-decoration: none;
+      }
+    </style>
+  </footer>
+
+  <!-- Voice Assistant -->
+  <script src="js/voice.js"></script>
+</body>
+</html>
